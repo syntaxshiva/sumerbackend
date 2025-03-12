@@ -121,7 +121,7 @@ export default {
             text: "Error while activating account",
             type: "error",
           });
-          this.activationStore.isActivated = false;
+          this.activationStore.isActivated = true;
           console.log(error);
           this.$swal("Error", error.response.data.message, "error");
         })

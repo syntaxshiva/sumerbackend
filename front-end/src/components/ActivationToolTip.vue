@@ -20,6 +20,7 @@ export default {
     },
   },
   setup() {
+  console.log("Activation Status:", activationStore.isActivated);
     return { activationStore }
   },
 };
